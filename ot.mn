@@ -1,0 +1,17 @@
+
+k := [{x + 2*y <=200, x+y<=1500, y<=600}, x + y, NonNegative]:
+g := linopt::plot_data(k, [x, y]):
+linopt::maximize(k)
+
+
+plot(g)
+
+linopt::corners(k, [x, y])
+
+c := [{x + y >=0}, -x + y ,NonNegative]:
+linopt::maximize(c)
+
+
+d := linopt::plot_data(c, [x,y]):
+plot(d)
+

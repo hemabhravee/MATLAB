@@ -2,7 +2,7 @@
 %THIS CODE IS UNFINISHED!
 close all;
 clc;
-x=1;
+x=1; 
 while true
    y = x^3;
    if(y>2000)

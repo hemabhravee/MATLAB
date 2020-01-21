@@ -1,7 +1,7 @@
 %(a)
-    clear all;
+    clear all;   %Deletes Variables 
     close all;
-    clc;
+    clc;         %Clears terminal
 
 %(b)
     %prompt = 'Enter Value';

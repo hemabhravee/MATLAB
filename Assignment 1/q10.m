@@ -9,7 +9,6 @@ b = 30;
 f = 28;
 fleap = 29;
 
-
         fprintf('\nJanuary : %d',a);
 
         if(r==0)
